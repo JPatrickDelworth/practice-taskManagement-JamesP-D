@@ -1,0 +1,52 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  border: 3px solid;
+  padding: 10px;
+  color: gold;
+}
+
+#home-link{
+  color: gold;
+}
+
+#link-container {
+  display:flex;
+  flex-direction: row;
+  align-items: left;
+  width: 100%;
+}
+
+#description {
+  padding: 0px;
+  margin: 0px;
+  color:white;
+}
+
+#title{
+  color:white;
+}
+
+#underline{
+  color: white;
+}
+
+.t-container{
+  display: flex;
+  flex-direction: column;
+}
+
+#t-items{
+  padding: 10px;
+  font-size: 18px;
+  color: white;
+}
+
+*{
+  background-color:grey;
+}
